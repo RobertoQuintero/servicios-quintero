@@ -1,0 +1,55 @@
+//font-family
+$fontLato: 'Lato', sans-serif;
+
+//font-size
+$fontSize-n :   15px;
+$fontSize-s :   $fontSize-n * .9;
+$fontSize-xs:   $fontSize-n * .8;
+$fontSize-m :   $fontSize-n * 1.5;
+$fontSize-l :   $fontSize-n * 2.5;
+$fontSize-xl:   $fontSize-n * 3.5;
+//Colors
+$blue   :   #007bff;
+$blue-two: #3369e7;
+$white  :   #fff;
+$black  :   #000;
+$red    :   #dc3545;
+//text-color
+$textColor-normal: #666;
+$textColor-strong: #333;
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+//z-index
+$z-back     :-10;
+$z-normal   :1  ;
+$z-tooltip  :10;
+$z-fixed    :100;
+$z-overlay  :1000; 
+
+body{
+    font-family: $fontLato;
+    font-size: $fontSize-n;
+    color: $textColor-normal;
+}
+a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    letter-spacing: 1px;
+    
+}
