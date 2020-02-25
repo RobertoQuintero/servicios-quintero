@@ -1,8 +1,10 @@
 .break-points{
     max-width: 540px;
     margin: 0 auto;
+    padding: 0 1em;
     @media screen and (min-width: 767px) {
         max-width: 690px;
+        padding: 0;
     }
     @media screen and (min-width:991px){
         max-width: 930px;

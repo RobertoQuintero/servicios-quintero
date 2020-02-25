@@ -9,16 +9,8 @@
         z-index: $z-normal;
 }
 
-@mixin flexCenter(){
+@mixin flex($side){
     display: flex;
-    justify-content: center;
+    justify-content: $side;
     align-items: center;
 }
-@mixin flexBetween(){
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-

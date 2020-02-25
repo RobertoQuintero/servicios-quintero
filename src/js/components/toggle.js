@@ -1,6 +1,9 @@
-let menuClick   = document.querySelector('.menu-click'),
-     menuNav     = document.querySelector('.menu__nav');
+let navtoggle   = document.getElementById('navtoggle'),
+     mainMenu     = document.getElementById('main-menu');
 
-menuClick.addEventListener('click',()=>{
-    menuNav.classList.toggle('showMenu')
+navtoggle.addEventListener('click',()=>{
+    mainMenu.classList.toggle('show')
+    mainMenu.classList.contains('show')
+        ?	navtoggle.innerHTML = '<span>Ocultar</span>'
+				:	navtoggle.innerHTML = '<i class="fa fa-bars"></i>'
 })

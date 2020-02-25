@@ -5,9 +5,9 @@ $fontLato: 'Lato', sans-serif;
 $fontSize-n :   15px;
 $fontSize-s :   $fontSize-n * .9;
 $fontSize-xs:   $fontSize-n * .8;
-$fontSize-m :   $fontSize-n * 1.5;
-$fontSize-l :   $fontSize-n * 2.5;
-$fontSize-xl:   $fontSize-n * 3.5;
+$fontSize-m :   $fontSize-n * 1.2;
+$fontSize-l :   $fontSize-n * 1.7;
+$fontSize-xl:   $fontSize-n * 2.5;
 //Colors
 $blue   :   #007bff;
 $blue-two: #3369e7;
@@ -33,11 +33,17 @@ body{
     font-family: $fontLato;
     font-size: $fontSize-n;
     color: $textColor-normal;
+    overflow-x: hidden;
+    height: 100%;
 }
 a{
     display: block;
     text-decoration: none;
-    text-align: center;
+    // text-align: center;
+}
+ul{
+    padding: 0;
+    margin: 0;
 }
 li{
     list-style: none;
@@ -51,5 +57,5 @@ img{
 
 h1,h2,h3,h4,h5,h6{
     letter-spacing: 1px;
-    
+    color: $textColor-strong;  
 }
