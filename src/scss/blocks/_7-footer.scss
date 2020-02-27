@@ -1,0 +1,32 @@
+.footer{
+  background-color: $black;
+  padding-bottom: 3rem;
+  &-logo{
+    display: flex;
+    justify-content: center;
+    @media (min-width:990px) {
+      .main-banner__text-title{
+        font-size: $fontSize-l;
+        &::before{
+            height: 60%;
+        }
+      }
+    }
+  }
+  &-button{
+    display: flex;
+    justify-content: center;
+    a{
+      font-size: $fontSize-m;
+      background-color: $black;
+      color: $accent;
+      border: 1px solid $accent;
+      padding: 1rem;
+      border-radius: 6px;
+      &:hover{
+        background-color: $accent;
+        color: $black;
+      }
+    }
+  }
+}

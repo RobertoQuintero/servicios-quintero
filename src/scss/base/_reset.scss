@@ -2,7 +2,7 @@
 $fontLato: 'Lato', sans-serif;
 
 //font-size
-$fontSize-n :   15px;
+$fontSize-n :   16px;
 $fontSize-s :   $fontSize-n * .9;
 $fontSize-xs:   $fontSize-n * .8;
 $fontSize-m :   $fontSize-n * 1.2;
@@ -14,6 +14,7 @@ $blue-two: #3369e7;
 $white  :   #fff;
 $black  :   #000;
 $red    :   #dc3545;
+$accent :   #f1a000;
 //text-color
 $textColor-normal: #666;
 $textColor-strong: #333;
@@ -32,7 +33,7 @@ $z-overlay  :1000;
 body{
     font-family: $fontLato;
     font-size: $fontSize-n;
-    color: $textColor-normal;
+    color: $black;
     overflow-x: hidden;
     height: 100%;
 }

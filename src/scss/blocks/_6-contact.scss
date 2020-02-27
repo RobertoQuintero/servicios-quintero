@@ -1,0 +1,58 @@
+.contact{
+  background-color: $black;
+  h2{
+    color: $white;
+  }
+  &-icon{
+    @include flex(center);
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 1rem;
+    font-size: $fontSize-l;
+    background-color: $white;
+    color: $black;
+    border-radius: 50%;
+  }
+}
+.contact-flex__list-item{
+  margin-bottom: 1rem;
+}
+.contact-item{
+  color: $white;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+.phone{
+  text-indent: 4rem;
+  color: $accent;
+}
+.contact-text{
+  color: $white;
+  font-size: $fontSize-m;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  a{
+    display: inline-block;
+    font-size: $fontSize-n;
+    color: #00e676;
+    border: 1px solid #00e676;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    border-radius: 4px;
+    &:hover{
+      color: $white;
+      background-color: #00e676;
+    }
+  }
+}
+.contact-container{
+
+  @media (min-width:767px) {
+    display: flex;
+    justify-content: space-between;
+    .contact-flex{
+      flex-basis: 48%;
+    }
+  }
+}

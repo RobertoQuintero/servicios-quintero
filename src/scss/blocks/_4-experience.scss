@@ -1,0 +1,29 @@
+.experience-flex{
+  &__two{
+    display: none;
+  }
+  @media (min-width:990px) {
+    display: flex;
+    justify-content: space-between;
+    &__one{
+      flex-basis: 60%;
+      order: 1;
+    }
+    &__two{
+      order: 0;
+      flex-basis: 35%;
+      display: block;
+      display: flex;
+      align-items: center;
+    }
+    &__img{
+      border-radius: 6px;
+
+    }
+  }
+}
+
+.pharagraph{
+  text-align: justify;
+  line-height: 1.6;
+}
