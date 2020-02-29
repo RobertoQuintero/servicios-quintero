@@ -12,10 +12,10 @@
 }
 .main-menu{
   position: absolute;
-  border-radius: 4px 0 0 0;
+  border-radius: 4px 0 0 4px;
   z-index: $z-fixed;
   top: 2.7em;
-  height: 100vh;
+  // height: 1000px;
   width: 60%;
   right: 0;
   transform: translateX(150%);
